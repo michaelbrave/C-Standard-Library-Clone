@@ -21,4 +21,4 @@ Topics covered in this project were:
 
 To fellow students who look at this see below. 
 This project passed all checks from the 42FileChecker(https://github.com/jgigault/42FileChecker) and Moulibft(https://moulibft.com/) before submitted.
-It also passed all tests after submission so you can be confident that if you pass both of those tests you should be good to go.
+It also passed all tests after submission so if you can pass both of those you can probably turn it in with some confidence. 
