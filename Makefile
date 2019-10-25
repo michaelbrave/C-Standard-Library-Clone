@@ -6,7 +6,7 @@
 #    By: mbrave <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/09/03 12:38:20 by mbrave            #+#    #+#              #
-#    Updated: 2019/01/25 23:57:50 by mbrave           ###   ########.fr        #
+#    Updated: 2019/10/24 22:34:58 by mbrave           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -92,9 +92,9 @@ OBJ = $(SRC:%.c=%.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar rc $(NAME) $(OBJ)
+	ar rcs $(NAME) $(OBJ)
 
-$(OBJ):
+$(OBJ): $(SRC)
 	$(CC) $(CFLAGS) $(SRC)
 
 clean:
