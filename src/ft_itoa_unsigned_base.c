@@ -1,34 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_itoa_unsigned_base.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbrave <mbrave@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/19 13:40:19 by mbrave            #+#    #+#             */
-/*   Updated: 2019/09/26 01:10:38 by mbrave           ###   ########.fr       */
+/*   Created: 2019/09/13 12:09:57 by mbrave            #+#    #+#             */
+/*   Updated: 2019/09/25 17:29:21 by mbrave           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-** memory allocaiton and string duplicaiton
-** returns pointer to the new string, null if it can't
-** like strcpy but with heap allocation
-*/
-
 #include "libft.h"
 
-char		*ft_strdup(const char *s1)
+char	*ft_itoa_base(long long n, int base)
 {
-	char		*s2;
-	size_t		size;
+	int				arraycount;
+	char			*str;
+	char			*hexmap;
 
-	if (s1 == NULL)
+	hexmap = ft_strdup("0123456789ABCDEF");
+	if (!(base > 2 && base < 16))
 		return (NULL);
-	size = ft_strlen((char *)s1) + 1;
-	if (!(s2 = malloc(size * sizeof(char))))
+	arraycount = ft_numplace(n, base);
+	if (!(str = (char *)ft_strnew(arraycount)))
 		return (NULL);
-	s2 = (char *)ft_memcpy(s2, s1, size);
-	s2[size] = '\0';
-	return (s2);
+	while (arraycount--)
+	{
+		str[arraycount] = hexmap[n % base];
+		n = n / base;
+	}
+	return (str);
 }

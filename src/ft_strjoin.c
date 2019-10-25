@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbrave <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: mbrave <mbrave@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/10 16:03:55 by mbrave            #+#    #+#             */
-/*   Updated: 2019/01/28 17:10:30 by mbrave           ###   ########.fr       */
+/*   Updated: 2019/09/25 18:59:25 by mbrave           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,27 +22,13 @@ char		*ft_strjoin(char const *s1, char const *s2)
 {
 	char		*str;
 	size_t		len;
-	size_t		j;
-	int			k;
 
-	if (s1 && s2)
-	{
-		j = 0;
-		k = 0;
-		len = ft_strlen((char *)s1) + ft_strlen((char *)s2);
-		str = (char *)malloc(sizeof(char) * (len + 1));
-		if (str == NULL)
-			return (NULL);
-		while (j != (len))
-		{
-			if (j < len - ft_strlen((char *)s2))
-				str[j] = s1[j];
-			else
-				str[j] = s2[k++];
-			++j;
-		}
-		str[j] = '\0';
-		return (str);
-	}
-	return (NULL);
+	len = ft_strlen((char *)s1) + ft_strlen((char *)s2);
+	str = (char *)malloc(sizeof(char) * (len + 1));
+	while (s1 != NULL && *s1)
+		*str++ = *s1++;
+	while (s2 != NULL && *s2)
+		*str++ = *s2++;
+	*str = '\0';
+	return (str - len);
 }

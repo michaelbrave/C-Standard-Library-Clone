@@ -108,7 +108,7 @@ int				ft_toupper(int c);
 /*
 ** other - Part 2
 */
-char			*ft_itoa(int n);
+char			*ft_itoa(intmax_t n);
 
 /*
 ** list (bonus)
@@ -130,5 +130,13 @@ int				ft_ispunct(int c);
 int				ft_isint(void *num);
 size_t			ft_lenofpart(char const *s, size_t start, char c);
 size_t			ft_numofstrings(char const *s, char c);
-int				ft_numplace(int n);
+
+/*
+** added or modified later for printf
+*/
+char			*ft_itoa_base(long long value, int base);
+int				ft_numplace(unsigned long n, int base);
+char			*ft_itoa_unsigned(unsigned long long n, int base);
+int				ft_numplace_unsigned(unsigned long long n, int base);
+
 #endif

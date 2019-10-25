@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbrave <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: mbrave <mbrave@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/05 01:04:23 by mbrave            #+#    #+#             */
-/*   Updated: 2019/02/02 19:05:18 by mbrave           ###   ########.fr       */
+/*   Updated: 2019/09/25 18:57:51 by mbrave           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,8 @@ void		*ft_memcpy(void *dst, const void *src, size_t n)
 	s = (char *)src;
 	d = (char *)dst;
 	i = 0;
+	if (d == NULL || s == NULL)
+		return (NULL);
 	while (i < n)
 	{
 		d[i] = s[i];

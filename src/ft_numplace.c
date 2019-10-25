@@ -15,7 +15,7 @@
 ** finds how many collumns a number has, support function for ft_itoa
 */
 
-int		ft_numplace(int n)
+int		ft_numplace(long long n, int base)
 {
 	int i;
 
@@ -24,7 +24,7 @@ int		ft_numplace(int n)
 		i++;
 	while (n != 0)
 	{
-		n = (n / 10);
+		n = (n / base);
 		i++;
 	}
 	return (i);
