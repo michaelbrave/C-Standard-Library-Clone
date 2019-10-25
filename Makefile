@@ -12,6 +12,10 @@
 
 NAME = libft.a
 
+FOLDER = ./src/
+
+INC = ./includes/
+
 SRC = ft_atoi.c \
 ft_bzero.c \
 ft_isalnum.c \
@@ -79,7 +83,7 @@ ft_strtrim.c \
 ft_tolower.c \
 ft_toupper.c \
 
-OBJ = $(SRC:%.c=%.o)
+OBJ = $(addprefix $(FOLDER), $(SRC:%.c=%.o))
 
 all: $(NAME)
 
@@ -87,7 +91,7 @@ $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ)
 
 $(OBJ):
-	gcc -c -Wall -Wextra -Werror -I includes $(SRC)
+	gcc -c -Wall -Wextra -Werror -I includes $(SRC) $(INC)
 
 clean:
 	rm -f $(OBJ)
