@@ -18,8 +18,5 @@
 
 int		ft_ispunct(int c)
 {
-	if (ft_isalnum(c) != 1 && ft_isgraph(c) == 1)
-		return (1);
-	else
-		return (0);
+	return ((ft_isalnum(c) != 1 && ft_isgraph(c) == 1) ? 1 : 0);
 }
