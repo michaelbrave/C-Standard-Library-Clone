@@ -12,13 +12,13 @@
 
 ## Introduction  
 
-### -About This Project
+#### About This Project
 This project is our first official project at my school [42][42 Silicon Valley]. The project is to create our own implementation of the standard C library. This serves two purposes, to help us learn the inner workings of the language and to use and implement in all future C projects while attending. 
 
-### -About Me
+#### About Me
 I'm Mike Brave and I'm a programming student at [42][42 Silicon Valley]. I'm specializing in Procedural Generation and AI (basically the creative applications of AI), but I also do a lot with mobile apps, UX Design and low level C programming. I also wrote the new swift curriculum for the school.  
 
-### -About 42  
+#### About 42  
 [42][42] is a free, non profit, project-based, peer-to-peer learning coding school. It originated in France and now has over 20 campuses all over the world. More information can be found [here][42] 
 
 ## Objective  
@@ -31,13 +31,15 @@ For instructions and/or greater detail refer to the project [pdf][pdf]
 
 ## Functionality  
 
-### -Installation 
+#### Installation 
 
-### -Usage  
+#### Usage  
 
-### -Testing  
+#### Testing  
 
-### -Future Implementation  
+#### Future Implementation  
+
+## Mechanics  
 
 ## Credits  
 
