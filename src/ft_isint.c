@@ -19,10 +19,7 @@
 
 int		ft_isint(void *num)
 {
-	long	tmp;
-
-	tmp = (long)num;
-	if (tmp >= -2147483648 || tmp <= 2147483647)
+	if ((long)num >= -2147483648 || (long)num <= 2147483647)
 		return (1);
 	else
 		return (0);

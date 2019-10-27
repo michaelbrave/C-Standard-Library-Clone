@@ -29,9 +29,7 @@ size_t		ft_lenofpart(char const *s, size_t start, char c)
 	while (s[counter] != '\0')
 	{
 		if (s[counter] == c)
-		{
 			return (res);
-		}
 		++counter;
 		++res;
 	}
