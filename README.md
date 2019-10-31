@@ -31,11 +31,11 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 **"Is" Group** 
 | Function | Description |
 | --- | --- |
-| [**ft\_isalpha()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isalpha.c) |The ft\_isalpha() function tests for any character for which isupper(3) or islower(3) is true.  The value of the argument must be representable as an unsigned char or the value of EOF.|
-| [**ft\_isdigit()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isdigit.c) | The ft\_isdigit() function tests for a decimal digit character.  Regardless of locale, this includes the following characters only: '0' - '9'.|
-| [**ft\_isalnum()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isalnum.c) | The ft\_isalnum() function tests for any character for which ft\_isalpha(3) or ft\_isdigit(3) is true.  The value of the argument must be representable as an unsigned char or the value of EOF.|
-| [**ft\_isascii()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_ascii.c) | The ft\_isascii() function tests for an ASCII character, which is any character between 0 and decimal  127 inclusive.|
-| [**ft\_isprint()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isprint.c) | The ft\_isprint() function tests for any printing character, including space (' ').  The value of the argument must be representable as an unsigned char or the value of EOF.|
+| [**ft\_isalpha()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isalpha.c) |The ft\_isalpha() function tests for any character for which isupper(3) or islower(3) is true.  The value of the argument must be representable as an unsigned char or the value of EOF. |
+| [**ft\_isdigit()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isdigit.c) | The ft\_isdigit() function tests for a decimal digit character.  Regardless of locale, this includes the following characters only: '0' - '9'. |
+| [**ft\_isalnum()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isalnum.c) | The ft\_isalnum() function tests for any character for which ft\_isalpha(3) or ft\_isdigit(3) is true.  The value of the argument must be representable as an unsigned char or the value of EOF. |
+| [**ft\_isascii()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_ascii.c) | The ft\_isascii() function tests for an ASCII character, which is any character between 0 and decimal  127 inclusive. |
+| [**ft\_isprint()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isprint.c) | The ft\_isprint() function tests for any printing character, including space (' ').  The value of the argument must be representable as an unsigned char or the value of EOF. |
 
 **"Str 1" Group**
 | Function | Description |
