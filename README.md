@@ -202,9 +202,11 @@ This is not kept up to date and I cannot guarantee that it will work on your fut
 
 ## Keep in Touch
 
-You can find me on [Github] (https://github.com/michaelbrave) - [Twitter] (https://twitter.com/SomeBraveDude) - [LinkedIn] (https://www.linkedin.com/in/mikebrave/) - [Medium] (https://medium.com/@themichaelbrave) and [myhomepage][My Homepage] (https://michaelbrave.github.io/)
+You can find me on [Github](https://github.com/michaelbrave) - [Twitter](https://twitter.com/SomeBraveDude) - [LinkedIn](https://www.linkedin.com/in/mikebrave/) - [Medium](https://medium.com/@themichaelbrave) and [myhomepage]
 
 Enjoy!
 
+
 [42]: http://42.us.org "42 USA"
 [pdf]:  "Pdf"
+[myHomepage]: https://michaelbrave.github.io/ "My Homepage"
