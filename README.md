@@ -13,10 +13,10 @@
 ## Introduction  
 
 #### About This Project
-This project is our first official project at my school [42][42 Silicon Valley]. The project is to create our own implementation of the standard C library. This serves two purposes, to help us learn the inner workings of the language and to use and implement in all future C projects while attending. 
+This project is our first official project at my school [42]. The project is to create our own implementation of the standard C library. This serves two purposes, to help us learn the inner workings of the language and to use and implement in all future C projects while attending. 
 
 #### About Me
-I'm Mike Brave and I'm a programming student at [42][42 Silicon Valley]. I'm specializing in Procedural Generation and Creative Machine Learning. I also do a lot with mobile apps, UX Design and low level C programming. I wrote the curriculim on swift for the school.  
+I'm Mike Brave and I'm a programming student at [42]. I'm specializing in Procedural Generation and Creative Machine Learning. I also do a lot with mobile apps, UX Design and low level C programming. I wrote the curriculum on swift for the school.  
 
 #### About 42  
 [42][42] is a free, non profit, project-based, peer-to-peer learning coding school. It originated in France and now has over 20 campuses all over the world. More information can be found [here][42] 
@@ -24,7 +24,7 @@ I'm Mike Brave and I'm a programming student at [42][42 Silicon Valley]. I'm spe
 ## Objective  
 Reverse engineer the following functions. Most are from the standard C library and a select others that would be considered useful in both learning and in future building. 
 
-The Assignment is broken up into a part 1 and part 2, the further divisions are my own for maintance purposes. 
+The Assignment is broken up into a part 1 and part 2, the further divisions are my own for maintenance purposes. 
 
 #### Part 1
 
@@ -158,6 +158,15 @@ Git clone https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft.gi
 cd C-Standard-Library-Clone---42-libft\
 ```
 
+This library has a makefile which has the following commands:
+
+| Command | Usage |
+| --- | --- |
+| `make` | creates .o files for each function as well as the main library file, libft.a |
+| `make clean` | removes the .o files used to create the library |
+| `make fclean` | removes the .o & .a files used to create the library |
+| `make re` | removes all .o & .a files then remakes them |
+
 It's easiest to use the provided makefile. So type
 ```
 make && make clean
@@ -202,11 +211,16 @@ This is not kept up to date and I cannot guarantee that it will work on your fut
 
 ## Keep in Touch
 
-You can find me on [Github](https://github.com/michaelbrave) - [Twitter](https://twitter.com/SomeBraveDude) - [LinkedIn](https://www.linkedin.com/in/mikebrave/) - [Medium](https://medium.com/@themichaelbrave) and [myhomepage][My Homepage]
+You can find me on
+* [Github](https://github.com/michaelbrave) 
+* [Twitter](https://twitter.com/SomeBraveDude) 
+* [LinkedIn](https://www.linkedin.com/in/mikebrave/) 
+* [Medium](https://medium.com/@themichaelbrave) 
+* [Home]
 
 Enjoy!
 
 
 [42]: http://42.us.org "42 USA"
 [pdf]:  "Pdf"
-[myHomepage]: https://michaelbrave.github.io/ "My Homepage"
+[Home]: https://michaelbrave.github.io/ "My Homepage"
