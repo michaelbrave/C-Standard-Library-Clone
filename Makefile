@@ -23,15 +23,13 @@ ft_bzero.c \
 ft_isalnum.c \
 ft_isalpha.c \
 ft_isascii.c \
-ft_isctrl.c \
+ft_iscntrl.c \
 ft_isdigit.c \
 ft_isgraph.c \
-ft_isint.c \
 ft_isprint.c \
 ft_ispunct.c \
 ft_isspace.c \
 ft_itoa.c \
-ft_lenofpart.c \
 ft_lstadd.c \
 ft_lstdel.c \
 ft_lstdelone.c \
@@ -46,8 +44,6 @@ ft_memcpy.c \
 ft_memdel.c \
 ft_memmove.c \
 ft_memset.c \
-ft_numofstrings.c \
-ft_numplace.c \
 ft_putchar.c \
 ft_putchar_fd.c \
 ft_putendl.c \

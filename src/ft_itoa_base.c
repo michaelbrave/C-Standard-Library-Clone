@@ -12,6 +12,21 @@
 
 #include "libft.h"
 
+int		ft_numplace(long long n, int base)
+{
+	int i;
+
+	i = 0;
+	if (n == 0)
+		i++;
+	while (n != 0)
+	{
+		n = (n / base);
+		i++;
+	}
+	return (i);
+}
+
 char		*ft_itoa_helper(long long n, int base, char *hexmap, int count)
 {
 	char	*str;

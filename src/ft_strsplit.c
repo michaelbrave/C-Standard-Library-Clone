@@ -21,6 +21,42 @@
 
 #include "libft.h"
 
+size_t		ft_numofstrings(char const *s, char c)
+{
+	size_t	word;
+
+	word = 0;
+	while (*s)
+	{
+		if (*s != c)
+		{
+			while (*s && *s != c)
+				s++;
+			word++;
+		}
+		while (*s == c)
+			s++;
+	}
+	return (word);
+}
+
+size_t		ft_lenofpart(char const *s, size_t start, char c)
+{
+	size_t	counter;
+	size_t	res;
+
+	counter = 0 + start;
+	res = 0;
+	while (s[counter] != '\0')
+	{
+		if (s[counter] == c)
+			return (res);
+		++counter;
+		++res;
+	}
+	return (res);
+}
+
 static char		**ft_worksplit(char const *str, char c, char **holder)
 {
 	size_t		wordlen;
