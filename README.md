@@ -68,7 +68,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 | [**ft\_memchr()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_memchr.c) | The ft\_memchr() function locates the first occurence of c (converted to an unsigned char) in string s. Returns a pointer to the byte located, or NULL if no such byte exists within n bytes.) |
 | [**ft\_memcmp()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_memcmp.c) | The ft\_memcmp() function compares byte string s1 against byte string s2. Both strings are assumed to be n bytes long. Returns 0 if the first two strings are identical, otherwise returns the difference between the first two bytes (treated as unsigned char values). Zero-length strings are always identical.|
 
-**"misc 1" Group**
+**"misc 1" Group**  
 
 | [**ft\_atoi()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_atoi.c) | ft\_atoi() converts the initial portion of the string pointed to by str to int representation and returns the int.|
 | [**ft\_toupper()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_toupper.c) | The ft\_toupper() function converts a lower-case letter to the corresponding upper-case letter.  The argument must be representable as an unsigned char or the value of EOF. If the argument is a lower-case letter, the ft\_toupper() function returns the corresponding upper-case letter if there is one; otherwise, the argument is returned unchanged.|
