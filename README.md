@@ -202,7 +202,7 @@ This is not kept up to date and I cannot guarantee that it will work on your fut
 
 ## Keep in Touch
 
-You can find me on [Github](https://github.com/michaelbrave) - [Twitter](https://twitter.com/SomeBraveDude) - [LinkedIn](https://www.linkedin.com/in/mikebrave/) - [Medium](https://medium.com/@themichaelbrave) and [myhomepage]
+You can find me on [Github](https://github.com/michaelbrave) - [Twitter](https://twitter.com/SomeBraveDude) - [LinkedIn](https://www.linkedin.com/in/mikebrave/) - [Medium](https://medium.com/@themichaelbrave) and [myhomepage][My Homepage]
 
 Enjoy!
 
