@@ -121,8 +121,6 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 
 #### Part 3 (Bonus: Linked Lists)
 
-**"list" Group**
-
 | Function | Description |
 | --- | --- |
 | [**ft\_lstnew()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_lstnew.c) | The function ft\_lstnew() allocates (with malloc(3)) and returns a “fresh” link. The variables content and content\_size of the new link are initialized by copy of the parameters of the function. If the parameter content is nul, the variable content is initialized to NULL and the variable content\_size is initialized to 0 even if the parameter content\_size isn’t. The variable next is initialized to NULL. If the allocation fails, the function returns NULL.|
@@ -133,8 +131,6 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 | [**ft\_lstmap()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_lstmap.c) | The ft\_map() function iterates a list lst and applies the function f to each link to create a “fresh” list (using malloc(3)) resulting from the successive applications of f. If the allocation fails, the function returns NULL.|
 
 #### Part 4 (Bonus: Personal Choice)
-
-**"personal choice" Group**
 
 | Function | Description |
 | --- | --- |
