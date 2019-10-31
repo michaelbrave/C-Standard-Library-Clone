@@ -29,6 +29,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 #### Part 1
 
 **"Is" Group** 
+
 | Function | Description |
 | --- | --- |
 | [**ft\_isalpha()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isalpha.c) |The ft\_isalpha() function tests for any character for which isupper(3) or islower(3) is true.  The value of the argument must be representable as an unsigned char or the value of EOF. |
@@ -38,6 +39,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 | [**ft\_isprint()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isprint.c) | The ft\_isprint() function tests for any printing character, including space (' ').  The value of the argument must be representable as an unsigned char or the value of EOF. |
 
 **"Str 1" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_strlen()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_strlen.c) | The ft\_strlen() function computes and returns the length of the string s.|
@@ -55,6 +57,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 | [**ft\_strncmp()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_strcmp.c) | The ft\_strncmp() function lexicographically compares the null-terminated strings s1 and s2. Returns an integer greater than, equal to, or less than 0, according as the string s1 is greater than, equal to, or less than the string s2.  Compares not more than n characters. The comparison is done using unsigned characters, so that '\200' is greater than '\0'.|
 
 **"mem 1" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_memset()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_memset.c) | The ft\_memset() function writes len bytes of value c (converted to an unsigned char) to the string b. Returns it's first argument.|
@@ -66,6 +69,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 | [**ft\_memcmp()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_memcmp.c) | The ft\_memcmp() function compares byte string s1 against byte string s2. Both strings are assumed to be n bytes long. Returns 0 if the first two strings are identical, otherwise returns the difference between the first two bytes (treated as unsigned char values). Zero-length strings are always identical.|
 
 **"misc 1" Group**
+
 | [**ft\_atoi()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_atoi.c) | ft\_atoi() converts the initial portion of the string pointed to by str to int representation and returns the int.|
 | [**ft\_toupper()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_toupper.c) | The ft\_toupper() function converts a lower-case letter to the corresponding upper-case letter.  The argument must be representable as an unsigned char or the value of EOF. If the argument is a lower-case letter, the ft\_toupper() function returns the corresponding upper-case letter if there is one; otherwise, the argument is returned unchanged.|
 | [**ft\_tolower()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_tolower.c) | The ft\_tolower() function converts an upper-case letter to the correspond-ing lower-case letter.  The argument must be representable as an unsigned char or the value of EOF.|
@@ -73,6 +77,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 #### Part 2
 
 **"Puts" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_putchar()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_putchar.c) | The ft\_putchar() function outputs the character c to the standard output.|
@@ -85,6 +90,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 | [**ft\_putnbr\_fd()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_putnbr_fd.c) | The ft\_putnbr\_fd() function outputs a number to the output specified by the file descriptor. A file descriptor of 0, 1, or 2, refers to the standard input, standard output, or standard error, respectively.|
 
 **"Str 2" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_strnew()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_strnew.c) | The function ft\_strnew() allocates with malloc(3) and returns a fresh string ending with '\0'. Each character of the string is initialized at '\0'. If the allocation fails, the function returns NULL.|
@@ -101,12 +107,14 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 | [**ft\_strsplit()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_strsplit.c) | The ft\_strsplit() function allocates with malloc(3) and returns an array of fresh strings (all ending with '\0' including the array itself) obtained by splitting s using the character c as a delimiter. If the allocation fails, the function returns NULL.|
 
 **"mem 2" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_memalloc()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_memalloc.c) | Allocates with malloc(3) and returns a fresh memory area. The memory allocated is initialized to 0. If the allocation fails, the function returns NULL.|
 | [**ft\_memdel()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_memdel.c) | The ft\_memdel() function takes the address of a memory area that needs to be freed with free(3), then puts the pointer to NULL.|
 
 **"misc 2" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_itoa()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_itoa.c) | The ft\_itoa() fuction allocates (with malloc(3)) and returns a "fresh" string ending with '\0' representing the integer n given as argument. Negative numbers must be supported. If the allocation fails, the function returns NULL.|
@@ -114,6 +122,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 #### Part 3 (Bonus: Linked Lists)
 
 **"list" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_lstnew()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_lstnew.c) | The function ft\_lstnew() allocates (with malloc(3)) and returns a “fresh” link. The variables content and content\_size of the new link are initialized by copy of the parameters of the function. If the parameter content is nul, the variable content is initialized to NULL and the variable content\_size is initialized to 0 even if the parameter content\_size isn’t. The variable next is initialized to NULL. If the allocation fails, the function returns NULL.|
@@ -126,6 +135,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 #### Part 4 (Bonus: Personal Choice)
 
 **"personal choice" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_isspace()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_isspace.c) | The ft\_isspace() function tests for the white-space characters. For any locale, this includes the following standard characters: ``\t''   ``\n''    ``\v''    ``\f''    ``\r''    `` ''. In the "C" locale, ft\_isspace() successful test is limited to these characters only. The value of the argument must be representable as an unsigned char or the value of EOF. The ft\_isspace() function returns zero if the character tests false and returns non-zero if the character tests true.|
@@ -136,6 +146,7 @@ The Assignment is broken up into a part 1 and part 2, the further divisions are 
 #### Part 5 (Later Additions)
 
 **"printf dependencies" Group**
+
 | Function | Description |
 | --- | --- |
 | [**ft\_itoa_base()**](https://github.com/michaelbrave/C-Standard-Library-Clone---42-libft/blob/master/src/ft_itoa_base.c) | The ft\_itoa_base() fuction allocates (with malloc(3)) and returns a "fresh" string ending with '\0' representing the integer n given as argument according to the n base given as a second argument. Negative numbers must be supported. If the allocation fails, the function returns NULL. |
