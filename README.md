@@ -5,7 +5,11 @@
 * [Objective](#objective)
 * [Instructions](#instructions)
 * [Dependencies](#dependencies)
-* [Functionality](#functionality)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing) 
+* [Future](#future)
+* [Mechanics](#mechanics)
 * [Credits](#credits)
 * [Disclaimer](#disclaimer)
 * [Keep In Touch](#keep-in-touch)
@@ -199,10 +203,12 @@ gcc myFile.c -L <path_to_library> -lft
 
 Most testing was done on a function by function basis with more thorough testing done using [42 File Checker](https://github.com/jgigault/42FileChecker)
 
-## Future Implementation  
+## Future 
 This library will continue to be added to and improved during my time at 42. After that time it will exist as only a reference as it was only created with the intent of learning. 
 
 ## Mechanics  
+
+For this particular project see [Objective](#objective) as the function descriptions also describe how they should work. 
 
 ## Credits  
 
